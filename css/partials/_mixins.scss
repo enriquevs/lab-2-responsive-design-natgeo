@@ -1,0 +1,13 @@
+@mixin anchor {
+  border-bottom: 4px solid $color-sunglow;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@mixin width-images ($width: 100%){
+  width: $width;
+}
+
+@mixin container-padding ($padding){
+  padding: $padding;
+}

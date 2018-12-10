@@ -1,0 +1,93 @@
+@media screen and (min-width: 768px) {
+
+  .national {
+
+    &__header__nav-menu__img {
+      width: 20%;
+    }
+
+    &__header__nav-menu__icon {
+      font-size: 30px;
+      line-height: 60px;
+    }
+
+    &__heading__main {
+      font-size: 35px;
+    }
+
+    &__container {
+      @include container-padding(0 15px)
+    }
+
+    &__item {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    &__cameras,
+    &__moon {
+    @include width-images(50%);
+    }
+
+    &__item__text-container {
+      width: 50%;
+    }
+
+    &__cameras,
+    &__moon {
+      height: 50%;
+    }
+
+    &__item p {
+      border-left: none;
+    }
+
+    &__item h4,
+    &__item p {
+      padding-left: 15px;
+    }
+
+    &__show-more-button {
+      width: 513px;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 50px;
+      padding: 10px 0;
+    }
+
+    &__last-image {
+      width: 70%;
+      margin: 20px auto;
+    }
+
+    &__bottom {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px 15px;
+    }
+
+    &__bottom__social-media,
+    &__bottom__community,
+    &__bottom__archives,
+    &__bottom__picture-stories {
+      width: 50%;
+    }
+
+    &__footer {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__footer__newsletters {
+      border-left: 1px solid rgba(0, 0, 0, 0.5);
+      padding: 5px 10px;
+    }
+
+    &__follow{
+      width: 30%;
+      border-left: 1px solid rgba(0, 0, 0, 0.5);
+      padding: 5px 10px;
+    }
+
+  }
+}
